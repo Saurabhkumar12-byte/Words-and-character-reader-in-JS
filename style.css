@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(133, 129, 129) ;
+}
+.container{
+    width: 100vw;
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background: 100%; */
+}
+textarea{
+    width: 95%;
+    margin-left:2.5% ;
+    outline: none;
+    /* border: none; */
+    /* height: 350%; */
+    margin-top: 2rem ;
+    padding-bottom: 5rem;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    /* font-weight: lighter; */
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: tomato;
+}
+.box {
+    height: 450px;
+    width: 500px;
+    background: rgb(7, 224, 177);
+    border-radius: 15px;
+    /* display: flex; */
+    box-shadow: 11px 11px 73px -1px rgba(0,0,0,0.68);
+  -webkit-box-shadow: 11px 11px 73px -1px rgba(0,0,0,0.68);
+  -moz-box-shadow: 11px 11px 73px -1px rgba(0,0,0,0.68);
+  border: 2px solid black;
+   
+  }
